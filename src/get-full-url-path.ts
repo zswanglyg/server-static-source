@@ -1,0 +1,1 @@
+export const getFullUrlPath = (url: string) => /\/$/.test(url) ? `${url}index.html` : url

@@ -1,0 +1,1 @@
+export const getLocalPath = (url: string) => `${process.env.FRONT_PUBLIC_URL}${url}`
